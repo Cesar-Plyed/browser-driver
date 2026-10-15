@@ -1,0 +1,10 @@
+{
+  "_comment": "Settings for the browser-driver skill. Delete any key you want to fall back to its default. Environment variables with the BA_ prefix override this file (e.g. BA_BROWSER_DEBUG_PORT=9333, BA_BROWSER_MODE=launch).",
+  "enable_browser_automation": true,
+  "browser_mode": "attach",
+  "browser_autostart": true,
+  "browser_debug_port": 9222,
+  "browser_debug_profile": "~/.browser-driver-profile",
+  "browser_executable": "",
+  "require_submit_confirmation": true
+}
